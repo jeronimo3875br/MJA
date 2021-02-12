@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=ss, initial-scale=1.0">
+        <title>Notification</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: arial;
+                box-sizing:  border-box;
+                outline: none;
+            }
+
+            table {
+                box-shadow: 0px 0px 5px grey;
+                border-radius: 7px;
+            }
+
+            table tr td h3 {
+                color: grey;    
+                margin: 15px;
+            }
+
+            table tr td img {
+                width: 170px;
+                height: 170px;
+            }
+
+            table tr td p {
+                margin-bottom: 20px;
+                color: grey;
+            }
+
+            table tr td button {
+                padding: 12px;
+                border-radius: 5px;
+                width: 200px;
+                height: auto;
+                background-color: #0099ff;
+                border: none;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+            table tr td label {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                <tr>
+                    <td align="center">
+                        <h3>Cód.<%= code %></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <img src="https://i.ibb.co/drr33kM/mplan.png" alt="MPlan Icon" >
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <p>
+                            Uma cobrança foi emitida por Márcio Apolinario, você pode consultar sobre clicando no botão abaixo!
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button><a style="color: #ffffff; text-decoration: none;" href=<%= checkoutURL %>>Visualizar</a></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
