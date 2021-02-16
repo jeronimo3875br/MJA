@@ -1,10 +1,10 @@
 "use strict";
 
-const PGDatabase = require("../../../shared/databases/postgres");
+const PGDatabase = require("../../../../../shared/databases/postgres");
 
-const { getAll } = require("../../../shared/services/TimeStampService"); 
-const crypto = require("../services/MPCryptoService"); 
-const { generateToken } = require("../../../shared/services/TokenService"); 
+const crypto = require("../../../services/MPCryptoService"); 
+const { getAll } = require("../../../../../shared/services/TimeStampService"); 
+const { generateToken } = require("../../../../../shared/services/TokenService"); 
 
 module.exports = class AuthController {
 

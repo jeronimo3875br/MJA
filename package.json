@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h3 align=\"center\"> MPlanJunoAPI </h3>",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -29,5 +29,16 @@
   "devDependencies": {
     "jest": "^26.6.3",
     "nodemon": "^2.0.7"
-  }
+  },
+  "bin": {
+    "server": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeronimo3875br/MPlanJunoAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeronimo3875br/MPlanJunoAPI/issues"
+  },
+  "homepage": "https://github.com/jeronimo3875br/MPlanJunoAPI#readme"
 }
