@@ -1,6 +1,6 @@
 "use strict";
 
-const redis = require("../../databases/redis/index");
+const redis = require("../../../shared/databases/redis");
 
 module.exports = class RedisService {
     static setCache(key, value, time){

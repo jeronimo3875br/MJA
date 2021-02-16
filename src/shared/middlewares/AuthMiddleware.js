@@ -2,9 +2,9 @@
 
 const jwt = require("jsonwebtoken"); 
 
-const { verifyToken } = require("../../services/JWT/TokenService"); 
+const { verifyToken } = require("../services/TokenService"); 
 
-const { getAll } = require("../../services/Time/TimeStampService");
+const { getAll } = require("../services/TimeStampService");
 
 module.exports = async (req, res, next) => {
 

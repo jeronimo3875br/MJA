@@ -2,7 +2,7 @@
 
 const axios = require("axios");
 
-const { setCache, getCache } = require("../../../services/Redis/RedisService");
+const { setCache, getCache } = require("./RedisService");
 
 module.exports = class JunoAuthService {
     static getAccessToken(sandbox, clientId, clientSecret){

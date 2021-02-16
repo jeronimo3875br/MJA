@@ -9,10 +9,10 @@ const bodyParser = require("body-parser");
 
 config({ path: ".env" });
 
-const AuthRoute = require("./routes/Auth/AuthRoute");
-const JunoRoute = require("./routes/Juno/JunoRoute"); 
+const AuthRoute = require("./modules/user/routes/AuthRoute");
+const JunoRoute = require("./modules/juno/routes/JunoRoute"); 
 
-const AuthMiddleware = require("./middlewares/Auth/AuthMiddleware");
+const AuthMiddleware = require("./shared/middlewares/AuthMiddleware");
 
 class App {
     constructor(){

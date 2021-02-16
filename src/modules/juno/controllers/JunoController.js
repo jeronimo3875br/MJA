@@ -3,10 +3,9 @@
 const ejs = require("ejs");
 const path = require("path");
 
-const JunoService = require("../../services/Juno/JunoService");
-const { getAll } = require("../../services/Time/TimeStampService");
-const { getAccessToken } = require("../../services/Juno/Auth/JunoAuthService");
-const JunoServiceAPI = require("../../services/Juno/JunoService");
+const JunoService = require("../services/JunoService");
+const { getAll } = require("../../../shared/services/TimeStampService");
+const { getAccessToken } = require("../services/JunoAuthService");
 
 module.exports = class JunoController {
     static async listBanks(req, res){

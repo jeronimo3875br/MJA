@@ -2,7 +2,7 @@
 
 const { Router } = require("express");
 
-const { listBanks, createCharge, listCharge, listCharges, cancelCharge } = require("../../controllers/Juno/JunoController");
+const { listBanks, createCharge, listCharge, listCharges, cancelCharge } = require("../controllers/JunoController");
 
 const router = Router();
 

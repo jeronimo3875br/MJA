@@ -2,9 +2,9 @@
 
 const axios = require("axios");
 
-const pkg = require("../../../package.json");
+const pkg = require("../../../../package.json");
 
-const { setCache, getCache } = require("../../services/Redis/RedisService");
+const { setCache, getCache } = require("./RedisService");
 
 module.exports = class JunoServiceAPI {
     constructor(sandbox, accessToken, resourceToken){
