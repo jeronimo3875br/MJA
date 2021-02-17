@@ -1,7 +1,7 @@
 <h3 align="center"> MPlanJunoAPI </h3>
 
 <p align="center">
-  <img src="https://github.com/jeronimo3875br/MPlanJunoAPI/blob/master/api.gif" height="300" width="500" />
+  <img src="https://github.com/jeronimo3875br/MJA/blob/master/api.gif" height="300" width="500" />
 </p>
 
 
